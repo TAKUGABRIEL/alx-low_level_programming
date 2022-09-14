@@ -1,35 +1,24 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-* print_number - prints # using _putchar function
-* @n: the integer to print
-*
-* Return: void
-*/
-void print_number(int n)
+  * main - Prints the sum of all multiples of 3 or 5 up to 1024
+  *
+  * Return: Always (Success)
+  */
+int main(void)
 {
-	int copy, nth, size = 1, ones = n % 10;
+	int i, z = 0;
 
-	n /= 10;
-	copy = n;
-	if (ones < 0)
+	while (i < 1024)
 	{
-		ones *= -1, copy *= -1, n *= -1;
-		_putchar('-');
-	}
-	if (copy > 0)
-	{
-		while (copy / 10 != 0)
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			copy /= 10, size *= 10;
+			z += i;
 		}
-		while (size > 0)
-		{
-			nth = n / size;
-			_putchar('0' + nth);
-			n -= nth * size;
-			size /= 10;
-		}
+
+		i++;
 	}
-	_putchar('0' + ones);
+
+	printf("%d\n", z);
+	return (0);
 }
