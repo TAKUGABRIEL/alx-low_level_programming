@@ -18,9 +18,3 @@ _putchar(alphabet);
 _putchar('\n');
 
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Securi
