@@ -1,21 +1,19 @@
-#include "gabriel.h"
-
+#include "main.h"
+#include <stdio.h>
 
 /**
- * main - prints gabriel
- *
- * Return: Always 0 (Success)
- */
-
-int main(void)
+* _isupper - checks for uppercase character
+* @c: Variable text
+* Return: Always 0.
+*/
+int _isupper(int c)
 {
-_putchar('g');
-_putchar('a');
-_putchar('b');
-_putchar('r');
-_putchar('i');
-_putchar('e');
-_putchar('l');
-_putchar('\n');
-return (0);
+	if (c >= 'A' && c <= 'Z')
+	{
+	return (1);
+	}
+	else
+	{
+	return (0);
+	}
 }
