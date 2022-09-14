@@ -1,23 +1,21 @@
-#include "main.h"
+#include "gabriel.h"
 
 
 /**
- * main - Entry point
+ * main - prints gabriel
  *
- * Return: nothing, return void
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
+_putchar('g');
 _putchar('a');
+_putchar('b');
 _putchar('r');
+_putchar('i');
+_putchar('e');
+_putchar('l');
 _putchar('\n');
-
 return (0);
 }
