@@ -27,9 +27,3 @@ int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-
